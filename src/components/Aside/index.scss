@@ -1,0 +1,59 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #5671a6;
+  padding: 0px 35px 0px 35px;
+}
+
+.aside__avatar {
+  margin-top: 50px;
+  margin-bottom: 41px;
+}
+
+.aside__name {
+  margin-bottom: 5px;
+  color: #5671a6;
+  font-size: 24px;
+}
+
+.aside__profession {
+  color: #383838;
+  font-size: 16px;
+  margin-bottom: 41px;
+}
+
+.aside__description {
+  font-size: 16px;
+  color: #616161;
+  margin-bottom: 41px;
+  max-width: 179px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 4px solid #5671a6;
+  width: 163px;
+  height: 163px;
+}
+
+.aside__profiles {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 41px;
+}
+
+.aside__button {
+  background-color: #5671a6;
+  color: white;
+  padding: 8px 0px;
+  border-radius: 30px;
+  width: 164px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}

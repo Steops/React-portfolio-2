@@ -1,0 +1,12 @@
+.layout {
+  border: 1px solid #616161;
+  width: 100vw;
+  background-image: url('../../assets/images/Background.png');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.page-content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
