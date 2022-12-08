@@ -1,0 +1,15 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    padding-top: 40px;
+    font-size: 42px;
+    color: #5671a6;
+    margin-bottom: 5px;
+  }
+  &__subtitle {
+    font-size: 24px;
+    margin-bottom: 75px;
+  }
+}

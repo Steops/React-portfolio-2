@@ -4,9 +4,12 @@
   background-image: url('../../assets/images/Background.png');
   background-size: cover;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .page-content {
   display: grid;
   grid-template-columns: auto 1fr;
+  flex: 1 1 auto;
 }

@@ -1,0 +1,38 @@
+.project-slider {
+  display: flex;
+  width: 1450px;
+  height: 375px;
+  align-items: center;
+  gap: 50px;
+  &__window {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  &__item {
+    min-width: 1450px;
+    max-width: 1450px;
+    height: 100%;
+  }
+  &__container {
+    display: flex;
+    height: 100%;
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+  }
+  &__arrow-left,
+  &__arrow-right {
+    cursor: pointer;
+  }
+  &__arrow {
+    width: 50px;
+    fill: black;
+  }
+}
+
+.--disabled {
+  opacity: 0;
+  cursor: default;
+}
